@@ -1,0 +1,65 @@
+.contact-us-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.contact-form {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.contact-form h2 {
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.location {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.location h2 {
+    margin-bottom: 10px;
+}
+
+.follow-us {
+    flex: 1;
+}
+
+.follow-us h2 {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+}
+
+.social-icons i {
+    font-size: 20px;
+}

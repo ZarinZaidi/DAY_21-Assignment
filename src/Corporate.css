@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+.center {
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+table,
+td,
+tr {
+    text-align: center;
+}
+
+img {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
