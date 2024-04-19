@@ -1,65 +1,52 @@
-.contact-us-container {
-    display: flex;
-    justify-content: space-around;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
 }
 
-.contact-form {
-    flex: 1;
-    margin-right: 20px;
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.contact-form h2 {
-    margin-bottom: 10px;
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.contact-form label {
+label,
+input,
+textarea {
     display: block;
-    margin-bottom: 5px;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 5px;
     margin-bottom: 10px;
 }
 
-.contact-form button {
-    padding: 5px 10px;
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
     background-color: #007bff;
-    color: white;
+    color: #fff;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-.location {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.location h2 {
-    margin-bottom: 10px;
-}
-
-.follow-us {
-    flex: 1;
-}
-
-.follow-us h2 {
-    margin-bottom: 10px;
-}
-
-.social-icons {
-    display: flex;
-}
-
-.social-icons a {
-    display: inline-block;
-    margin-right: 10px;
-    color: #333;
-}
-
-.social-icons i {
-    font-size: 20px;
+button:hover {
+    background-color: #0056b3;
 }

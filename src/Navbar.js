@@ -18,19 +18,24 @@ function Navbar() {
 
 const styles = {
     navbar: {
-        display: 'flex',
         listStyleType: 'none',
+        margin: 0,
         padding: 0,
         backgroundColor: '#333',
-        color: '#fff',
+        overflow: 'hidden',
+        display: 'flex',
+        justifyContent: 'center',
     },
     navItem: {
-        marginRight: '10px',
+        float: 'left',
+        padding: '10px 15px',
     },
     navLink: {
-        color: '#fff',
+        display: 'block',
+        color: 'white',
+        textAlign: 'center',
+        padding: '14px 20px',
         textDecoration: 'none',
-        padding: '10px',
     },
 };
 export default Navbar
