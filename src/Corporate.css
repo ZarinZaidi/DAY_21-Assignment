@@ -3,21 +3,24 @@ body {
 }
 
 .center {
-    border: 5px solid;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
     text-align: center;
 }
 
-table,
-td,
-tr {
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
     text-align: center;
+    padding: 10px;
 }
 
 img {
-    text-align: center;
-    width: fit-content;
-    margin: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
 }
